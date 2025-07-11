@@ -11,9 +11,19 @@ body {
   font-weight: bold;
 }
 .hero {
-  background-color: #d6ccc2;
+  font-family:'Times New Roman', Times, serif;
+  background-image: url('cookies.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   padding: 60px 20px;
   text-align: center;
+  color: rgb(0, 0, 0);
+}
+.cookie {
+  width: 100%;
+  height: auto; 
 }
 .hero h1 {
   font-size: 3rem;
@@ -28,7 +38,7 @@ body {
 }
 footer {
   background-color: #6f4e37;
-  color: white;
+  color: rgba(212, 212, 212, 1);
   padding: 20px 10px;
   text-align: center;
   margin-top: 40px;
